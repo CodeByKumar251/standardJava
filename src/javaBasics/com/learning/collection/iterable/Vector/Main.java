@@ -6,6 +6,8 @@ public class Main {
 		Vector<Integer> vec=new Vector<>();
 		vec.add(0, 200);
 		System.out.println(vec.get(0));
+		vec.add(300);
+		System.out.println(vec.get(1));
 	}
 
 }
