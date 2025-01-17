@@ -7,7 +7,7 @@ public class Main {
 		MultithreadingLearning runnableObj=new MultithreadingLearning();
 		Thread thread=new Thread(runnableObj);
 		thread.start();  //internally run method gets called
-		
+		System.out.println("Finish main method: "+Thread.currentThread().getName());
 	}
 
 }

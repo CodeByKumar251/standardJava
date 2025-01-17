@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 public class MaxPriorityQueue {
 	
 	public static void main(String args[]) {
+		//max PriorityQueue/max heap used to solve problem for max heap 
 		PriorityQueue<Integer> maxPQ=new PriorityQueue<Integer>((Integer a, Integer b) ->b-a);
 		maxPQ.add(5);
 		maxPQ.add(2);
